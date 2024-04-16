@@ -50,6 +50,5 @@ fi
 
 printf "%bBuild and install all components successfully.%b\n" "${GREEN}" "${NC}"
 printf "%bPress any key to exit...%b\n" "${WHITE}" "${NC}"
-read -n 1
 
 exit 0

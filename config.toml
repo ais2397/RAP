@@ -45,11 +45,12 @@ change-id = 115898
 # All tier 1 targets are currently supported; set this to `"if-available"` if
 # you are not sure whether you're on a tier 1 target.
 #
-# We also currently only support this when building LLVM for the build triple.
+# We also currently only support this when bullding LLVM for the build triple.
 #
 # Note that many of the LLVM options are not currently supported for
 # downloading. Currently only the "assertions" option can be toggled.
-#download-ci-llvm = if rust.channel == "dev" { "if-available" } else { false }
+download-ci-llvm = false
+ #= if rust.channel == "dev" { "if-available" } else { false }
 
 # Indicates whether the LLVM build is a Release or Debug build
 #optimize = true

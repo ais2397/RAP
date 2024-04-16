@@ -51,4 +51,3 @@ rustup toolchain link rap-rust build/${HOST_TRIPLE}/stage2
 printf "%bBuilding success: building, installing and linking %brap-rust %bfinished.%b\n" "${GREEN}" "${BLUE}" "${GREEN}" "${NC}"
 printf "%bBuild and install all components successfully.%b\n" "${YELLOW}" "${NC}"
 printf "%bPress any key to exit...%b\n" "${WHITE}" "${NC}"
-read -n 1
